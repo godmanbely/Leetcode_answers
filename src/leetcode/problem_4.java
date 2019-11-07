@@ -5,14 +5,14 @@ public class problem_4 {
 	public static void main(String[] args) {
 	int[] a= {1,2,5};
 	int[] b= {4,9,12};
-	Solution soul= new Solution();
+	Solution2 soul= new Solution2();
 	double median = soul.findMedianSortedArrays(a, b);
 	System.out.println(median);
 	}
 	
 }
 
-class Solution {
+class Solution2 {
 	
     public double findMedianSortedArrays(int[] A, int[] B) {
         int m = A.length;
@@ -49,7 +49,7 @@ class Solution {
         return 0.0;
     }
 }
-class solution{
+class solution3{
 	public int myAtoi(String str) {
 		int n = str.length();
 		return n;

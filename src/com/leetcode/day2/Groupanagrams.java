@@ -30,14 +30,9 @@ public class Groupanagrams {
 	public List<List<String>> groupamgram_2(String[] strs) {
 		if (strs.length == 0) {
 			return new ArrayList<>();
-		List<List<String>> ans = new ArrayList<>();
-		boolean[] used = new boolean[strs.length];
-		
-		
-		
-		return 
 			
 		}
+		return null;
 	}
 
 }

@@ -8,20 +8,20 @@ public class Printlistfromtail {
 		
 
 	}
-	public static ArrayList<Integer> printlistfromtail(listNode listNode){
+	public static ArrayList<Integer> printlistfromtail(listNode_1 listNode_1){
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		listNode temp =listNode;
+		listNode_1 temp =listNode_1;
 		while (temp!=null) {
 			list.add(0,temp.val);
 			temp = temp.next;
 		}
 		return list;
 	}
-	public static ArrayList<Integer> printlistfrom(listNode listnode){
+	public static ArrayList<Integer> printlistfrom(listNode_1 listNode_1){
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		if (listnode!=null) {
-			printlistfrom(listnode.next);
-			list.add(listnode.val);
+		if (listNode_1!=null) {
+			printlistfrom(listNode_1.next);
+			list.add(listNode_1.val);
 		}
 		return list;
 	}
@@ -29,12 +29,10 @@ public class Printlistfromtail {
 }
 
 
-class listNode{
+class listNode_1{
 	int val;
-	listNode next = null;
-	
-	
-	public listNode(int val) {
+	listNode_1 next = null;
+	public listNode_1(int val) {
 		this.val = val;
 	}
 }
