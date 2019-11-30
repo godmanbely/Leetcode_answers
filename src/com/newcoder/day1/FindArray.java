@@ -1,7 +1,6 @@
 package com.newcoder.day1;
 
 
-
 public class FindArray {
 	public boolean find(int target, int[][] array) {
 		int len = array.length - 1;
